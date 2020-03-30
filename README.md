@@ -4,7 +4,6 @@ The application list all currencies. Each row has an input where you can enter a
 The app also  download and update rates every 1 second using API
 
 ## Libraries
-## Libraries
 *   [AndroidX](https://developer.android.com/jetpack/androidx)  Android Architecture Components: 
     ViewModel , 
     LiveData
