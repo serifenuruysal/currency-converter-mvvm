@@ -4,16 +4,16 @@ The application list all currencies. Each row has an input where you can enter a
 The app also  download and update rates every 1 second using API
 
 ## Libraries
-* Android Architecture Components: 
+## Libraries
+*   [AndroidX](https://developer.android.com/jetpack/androidx)  Android Architecture Components: 
     ViewModel , 
     LiveData
-    
-* RxAndroid2: Asynch Operations
-* Retrofit: Network Operations
-* OkHttp: Network Operations
-* RxBus: Communication
-* Moshi:  JSON Library
-* JUnit and Mockito : Unit Testing
+*   [RxJava2](https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0) 
+*   [RxAndroid](https://github.com/ReactiveX/RxAndroid) 
+*   [OkHttp](http://square.github.io/okhttp/) 
+*   [Retrofit](http://square.github.io/retrofit/)
+*   [Gson](https://github.com/google/gson)
+*   [Moshi](https://github.com/square/moshi)
 
 ## Approach of Clean Architecture for Android
 The whole application is built based on the MVVM architectural pattern.There are 3 separated  layers in the project: Data, Domain, Presentation layer.
@@ -30,16 +30,6 @@ The whole application is built based on the MVVM architectural pattern.There are
 
 ## Language
 *   [Kotlin](https://kotlinlang.org/)
-
-## Libraries
-*   [AndroidX](https://developer.android.com/jetpack/androidx)
-*   [RxJava2](https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0)
-*   [RxAndroid](https://github.com/ReactiveX/RxAndroid)
-*   [OkHttp](http://square.github.io/okhttp/)
-*   [Retrofit](http://square.github.io/retrofit/)
-*   [Gson](https://github.com/google/gson)
-*   [Moshi](https://github.com/square/moshi)
-
 
 ## Demo
 ![Currency Converter Demo](demo/demo.gif)
