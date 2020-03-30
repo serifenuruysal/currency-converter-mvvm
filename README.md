@@ -46,6 +46,3 @@ The whole application is built based on the MVVM architectural pattern.There are
 
 
 #### Serife Nur Uysal
-
-
-# currency-converter-mvvm
